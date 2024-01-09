@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 65%;
+    height: 400px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff66;
+    box-shadow: 5px 5px 5px #4f6171;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.logo ul li {
+    display: inline-block;
+    list-style: none;
+}
+.logo ul li a {
+    text-decoration: none;
+    color: #18578d;
+    padding: 6px;
+    font-weight: bold;
+}
+.profile i{
+    padding: 8px;
+}
+.profile select {
+    border: none;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #ffffff36;
+    color: #18578d;
+}
+.profile select:focus {
+    outline: none;
+}
+
+.search {
+    margin-top: 30px;
+    padding: 12px;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(246, 237, 221);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input[type="search"] {
+    width: 140%;
+    font-weight: bold;
+    border: none;
+}
+
+.search input[type="search"]:focus {
+    outline: none;
+} 
+.icon img:hover {
+    cursor: pointer;
+}
+
+.gaurentee {
+    margin: 30px 60px;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #18578d;
+    border-radius: 6px;
+}
+.gaurentee h1 {
+    font-size: 42px;
+    padding: 10px 46px;
+    text-align: center;
+    font-weight: 500;
+}
+.gaurentee .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.gaurentee .find {
+    background-color: #ffd900;
+    padding: 12px 4px;
+    width: 70%;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: none;
+    color: #18578d;
+}
+
+.budget {
+    border: 2px solid black;
+    height: 344px;
+    width: 80%;
+    margin: auto;
+}
