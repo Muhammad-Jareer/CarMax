@@ -245,16 +245,16 @@ html,body {
     font-weight: 600;
     font-size: 36px;
 }
-.icon {
+#box-2 .icon {
     padding: 20px 20px;
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.icon p {
+#box-2 .icon p {
     font-size: 14px;
 }
-.icon i {
+#box-2 .icon i {
     font-size: 24px;
 }
 .extra-services .shop {
