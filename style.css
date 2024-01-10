@@ -34,6 +34,7 @@ html,body {
 .logo ul li {
     display: inline-block;
     list-style: none;
+    transition: transform 0.3s ease-in-out;
 }
 .logo ul li a {
     text-decoration: none;
@@ -41,8 +42,16 @@ html,body {
     padding: 6px;
     font-weight: bold;
 }
+.logo ul li:hover {
+    transform: scale(1.14);
+}
 .profile i{
     padding: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+.profile i:hover {
+    transform: scale(1.34);
+    cursor: pointer;
 }
 .profile select {
     border: none;
@@ -79,6 +88,9 @@ html,body {
     cursor: pointer;
 }
 
+
+
+
 .gaurentee {
     margin: 30px 60px;
     width: 400px;
@@ -110,11 +122,20 @@ html,body {
     border-radius: 10px;
     border: none;
     color: #18578d;
+    transition: transform 0.4s ease-in-out 0.01s;
 }
+.gaurentee .find:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
+
 
 .budget {
     border: 2px solid whitesmoke;
     width: 70%;
+    height: 440px;
     margin: auto;
     background-color: white;
     color: #18578d;
@@ -141,7 +162,13 @@ html,body {
 .budget .cars img {
     width: 90px;
     padding: 0 6px;
+    transition: transform 0.4s ease-in-out 0.01s;
 }
+.budget .cars img:hover {
+    transform: scale(1.14);
+    cursor: pointer;
+}
+
 
 .payment {
     display: flex;
@@ -182,4 +209,67 @@ html,body {
     border-radius: 10px;
     border: none;
     color: #18578d;
+    transition: transform 0.4s ease-in-out 0.02s;
+}
+.budget .select:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
+
+.extra-services {
+    width: 100%;
+    height: 544px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url("images/photo-1494976388531-d1058494cdd8.jpg");
+    position: relative;
+    top: -50px;
+    z-index: -1;
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+}
+#box-2 {
+    background-color: #18578d;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    color: white;
+}
+#box-2 h1 {
+    margin: 50px 16px 0 16px;
+    font-weight: 600;
+    font-size: 36px;
+}
+.icon {
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icon p {
+    font-size: 14px;
+}
+.icon i {
+    font-size: 24px;
+}
+.extra-services .shop {
+    background-color: white;
+    padding: 12px 4px;
+    width: 54%;
+    margin: 12px 0 0 20px;
+    border-radius: 10px;
+    border: none;
+    color: #18578d;
+    transition: transform 0.4s ease-in-out 0.02s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.extra-services .shop:hover {
+    transform: scale(1.04);
+    cursor: pointer;
 }
