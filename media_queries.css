@@ -1,0 +1,88 @@
+@media only screen and (max-width: 425px) and (min-width: 300px) {
+    html,body {
+        background-position: center center;
+        width: 100%;
+    }
+    .container {
+        height: fit-content;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        gap: 20px;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .profile {
+        display: flex;
+    }
+    .search {
+        width: 100%;
+        margin: auto;
+        padding: 6px;
+    }
+    .search input[type="search"] {
+        width: 130%;
+        font-weight: bold;
+        border: none;
+    }
+    .gaurentee {
+        width: 90%;
+        height: fit-content;
+        margin: 16px auto;
+
+    }
+    .gaurentee h1 {
+        font-size: 16px;
+    }
+    .budget h3 {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .budget p {
+        margin: 0px 24px;
+    }
+    .budget {
+        height: fit-content;
+        width: 90%;
+        gap: 10px;
+    }
+    .car-images {
+        width: 71%;
+        margin: auto;
+    }
+    #box-1 {
+        background-position: center;
+    }
+    #box-2 {
+        padding: 4px;
+    }
+    #box-2 h1{
+        font-size: 14px;
+        margin: 50px 16px 0 16px;
+    }
+    #box-2 .icon {
+        padding: 6px;
+    }
+    .icon-text h3{
+        font-size: 12px;
+    }
+    .icon-text p{
+        font-size: 2px;
+    }
+    #box-2 .icon p {
+        font-size: 10px;
+    }
+    #box-2 .icon i {
+        font-size: 16px;
+    }
+    .extra-services .shop {
+        width: 80%;
+        margin: auto;
+        padding: 4px;
+    }
+}

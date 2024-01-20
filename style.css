@@ -5,9 +5,8 @@
     padding: 0;
 }
 html,body {
-    width: 100%;
     height: 100%;
-    background-image: url("images/background.jpg");
+    background-image: url("images/bgroun6.jpeg");
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
 }
@@ -22,8 +21,7 @@ html,body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #ffffff66;
-    box-shadow: 5px 5px 5px #4f6171;
+    background-color: #997b7b66;
 }
 .logo {
     display: flex;
@@ -204,7 +202,7 @@ html,body {
 .budget .select {
     background-color: #ffd900;
     padding: 12px 4px;
-    width: 54%;
+    width: 44%;
     margin-top: 12px;
     border-radius: 10px;
     border: none;
@@ -220,15 +218,20 @@ html,body {
 
 .extra-services {
     width: 100%;
-    height: 544px;
+    /* height: 544px; */
+    height: fit-content;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url("images/photo-1494976388531-d1058494cdd8.jpg");
     position: relative;
     top: -50px;
     z-index: -1;
     border: 2px solid whitesmoke;
     border-radius: 12px;
+}
+#box-1 {
+    background-image: url("images/bground4.jpeg");
+    background-position: right top;
+    background-repeat: no-repeat;
 }
 #box-2 {
     background-color: #18578d;
