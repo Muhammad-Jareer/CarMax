@@ -254,11 +254,11 @@ html,body {
     align-items: center;
     gap: 20px;
 }
-#box-2 .icon p {
-    font-size: 14px;
-}
 #box-2 .icon i {
     font-size: 24px;
+}
+#box-2 .icon p {
+    font-size: 14px;
 }
 .extra-services .shop {
     background-color: white;
