@@ -1,6 +1,4 @@
-function like() {
-    confirm("Thanks for your feedback");
-}
+const like = () => confirm("Thanks for your feedback!");
 
 function validateLogin() {
     var username = document.getElementById('username').value;
